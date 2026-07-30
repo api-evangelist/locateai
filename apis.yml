@@ -1,7 +1,26 @@
 aid: locateai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/locateai.png
 name: LocateAI
-description: LocateAI is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  LocateAI (Locate) is an AI-integrated commercial real estate brokerage focused on retail site
+  selection for multi-unit and franchise brands. Its platform pairs proprietary AI models with
+  full-service advisory to help brands choose markets, source and score sites, forecast Year-1
+  revenue and cannibalization risk, right-size franchise territories, and negotiate leases — from
+  the first market through the signed lease. The models analyze 200M+ mobile devices and 1,100+
+  variables for device-level trade-area, fair-share, and time-weighted revenue analysis. Locate is
+  delivered as a managed service; it does not currently publish a public developer API, SDK, or
+  documentation surface. Added to the API Evangelist network as a Techstars portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/locateai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Real Estate
+- Location Intelligence
+- Site Selection
+- Retail
+- Artificial Intelligence
+- Geospatial
+- Analytics
+- Franchise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://locate.ai/
+  url: https://www.locate.ai/
+- type: Platform
+  url: https://www.locate.ai/platform
+- type: About
+  url: https://www.locate.ai/company
+- type: Support
+  url: https://www.locate.ai/contact
+- type: Blog
+  url: https://www.locate.ai/resources
+- type: Login
+  url: https://app.locate.ai/login
+- type: TermsOfService
+  url: https://www.locate.ai/terms
+- type: PrivacyPolicy
+  url: https://www.locate.ai/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/locateai
+- type: DomainSecurity
+  url: security/locateai-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
