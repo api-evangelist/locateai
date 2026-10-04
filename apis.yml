@@ -44,7 +44,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Location Intelligence
 - Site Selection
 - Retail
@@ -62,6 +62,7 @@ tags_raw:
 - Geospatial
 - Analytics
 - Franchise
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
